@@ -1,6 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
+/**
+* main - assigns a random number to int n everytime
+* it executes, and print it.
+* it Return: Always 0 
+*/
+
+
 int main(void)
 {
 	int n;
