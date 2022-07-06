@@ -14,5 +14,4 @@ if (a == 'q' || a == 'e')
 continue;
 }
 putchar (a);
-return (0);
-}
+return (0); }
