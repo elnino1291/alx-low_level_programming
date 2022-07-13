@@ -6,10 +6,16 @@
 */
 int main(void)
 {
-int a;
-for (a = 10; a++;)
-{
-putchar(a);
+putchar("_");
+putchar("p");
+putchar("u");
+putchar("t");
+putchar("c");
+putchar("h");
+putchar("a");
+putchar("r");
+
+
 putchar('\n');
 }
 return (0);
