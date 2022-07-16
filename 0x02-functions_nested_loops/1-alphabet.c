@@ -1,11 +1,16 @@
 #include "main.h"
 /**
-* A funtion tjat prints alphabet, in lowercase
+* A funtion that prints alphabet, in lowercase
 **/
 void print_alphabet(void)
 {
-	char c;
-	for (c = 'a'; c <= 'z'; c++)
-		_putchar(c);
-	_putchar('\n');
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+
+		__putchar(c);
+		c++;
+	}
+	_putchar('\n'):
 }
