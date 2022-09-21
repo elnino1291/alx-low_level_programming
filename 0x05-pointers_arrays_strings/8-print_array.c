@@ -10,15 +10,14 @@
 
 void print_array(int *a, int n)
 {
-	int a;
+	int inc;
 
-	int n;
-	for (a = 0; a < n ; a++)
+	for (inc = 0; a < n ; inc++)
 	{
-		if (a != n - 1)
-			print("%d, ", a[a]);
+		if (inc != n - 1)
+			print("%d, ", a[inc]);
 		else
-			print("%d, a[a]);
+			print("%d, a[inc]);
 	}
 	putchar(10);
 }
