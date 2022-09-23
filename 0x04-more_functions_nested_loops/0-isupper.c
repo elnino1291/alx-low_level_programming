@@ -3,8 +3,12 @@
 
 /**
 *_isupper - check if s character is uppercase or not
-*@c: character to be tested
-*Return: 1 whether it is, o otherwise
+*character is uppercase
+*
+*@c: checks input of function
+*
+*Return: return 1 if 'c' is uppercase
+*otherwise always 0 (success)
 */
 int _isupper(int c)
 {
